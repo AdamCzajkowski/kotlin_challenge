@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.project.kotlin_challange"
+    namespace = "com.project.kotlin_challenge"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.project.kotlin_challange"
+        applicationId = "com.project.kotlin_challenge"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

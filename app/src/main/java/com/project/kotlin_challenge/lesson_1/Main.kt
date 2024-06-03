@@ -1,4 +1,4 @@
-package com.project.kotlin_challange.lesson_1
+package com.project.kotlin_challenge.lesson_1
 
 /**
  * FizzBuzz
