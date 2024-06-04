@@ -27,6 +27,7 @@ fun main() {
     first()
     second()
     third()
+    thirdAlternative()
 }
 
 fun first() {
@@ -45,6 +46,15 @@ fun third() {
     listOfElectronics.map { it.price }.forEach {
         priceSummary += it
     }
+    println("Zad3. $priceSummary")
+}
+
+/**
+ * zad 3. bez użycia .forEach
+ */
+fun thirdAlternative() {
+    val listOfElectronics = products.filter { it.category == "Elektronika" }
+    val priceSummary = listOfElectronics.sumOf { it.price }
     println("Zad3. $priceSummary")
 }
 
